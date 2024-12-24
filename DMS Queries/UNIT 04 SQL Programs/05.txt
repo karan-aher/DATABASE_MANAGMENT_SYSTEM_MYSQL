@@ -1,0 +1,13 @@
+05)Write a PL/SQL Program to Find Largest Of Two Numbers.  
+
+DECLARE 
+A NUMBER:=23;
+B NUMBER:=45;
+BEGIN
+If (A>B) THEN
+DBMS_OUTPUT.PUT_LINE('A is Large ');
+ELSE
+DBMS_OUTPUT.PUT_LINE('B is Large ');
+End IF;
+End;
+/

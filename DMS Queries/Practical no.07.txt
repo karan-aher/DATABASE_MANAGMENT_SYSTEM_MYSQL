@@ -1,0 +1,11 @@
+create table emp (employee_no number (5),employee_name varchar2 (10),employee_salary number (10));
+desc emp;
+insert into emp values(1,'abc',40000);
+insert into emp values(2,'pqr',45000);
+insert into emp values(3,'lmn',35000);
+insert into emp values(4,'xyz',25000);
+select * from emp;
+select employee_salary+500 from emp;
+select employee_salary-200 from emp;
+select employee_salary*2 from emp;
+select employee_salary/2 from emp;

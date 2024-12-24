@@ -1,0 +1,13 @@
+create table karan (Roll_no number(3),name varchar2(20),address varchar2(20));
+desc karan;
+alter table karan add(contact number (20));
+desc karan;
+alter table karan modify(address varchar2(25));
+desc karan;
+alter table karan drop(name);
+desc karan;
+rename karan to karan1;
+desc karan1;
+drop table karan1;
+desc karan1;
+

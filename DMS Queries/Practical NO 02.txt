@@ -1,0 +1,10 @@
+create table students(Roll_no number(3),name varchar2(20),address varchar2(20));
+desc students; 
+create table staffs(Roll_no number(3) primary key, name varchar2(20),address varchar2(20));
+desc staffs;
+alter table students add(contact number(10));
+desc students;
+alter table students modify(name varchar2(25));
+desc students;
+alter table students drop(address);
+desc students;

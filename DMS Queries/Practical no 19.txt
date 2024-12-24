@@ -1,0 +1,53 @@
+for loop  for print no in given range 
+
+DECLARE 
+N NUMBER;
+BEGIN 
+FOR N IN 1..10 LOOP
+DBMS_OUTPUT.PUT_LINE(N);
+END LOOP;
+END;
+/
+
+for loop  for print no in reverse order  
+
+DECLARE 
+N NUMBER;
+BEGIN 
+FOR N IN REVERSE 1..10 LOOP
+DBMS_OUTPUT.PUT_LINE(N);
+END LOOP;
+END;
+/
+
+
+find no is even or odd using for loop 
+
+
+Declare
+i number;
+begin
+for i in 1..10 loop
+if mod (i,2)=0 then
+DBMS_OUTPUT.PUT_LINE('Even no is'||  i);
+Else
+DBMS_OUTPUT.PUT_LINE('odd no is'|| i);
+end if;
+end loop;
+end;
+/
+
+
+while loop  for print no in given range 
+
+
+
+DECLARE 
+N number:=50;
+begin
+while N<=60 loop
+DBMS_OUTPUT.PUT_LINE(N);
+N:=N+1;
+END LOOP;
+END;
+/

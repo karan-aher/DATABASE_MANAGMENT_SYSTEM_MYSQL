@@ -1,0 +1,28 @@
+create table Emp_com(emp_id number (10),emp_name varchar2 (20),emp_salary number (10));
+desc Emp_com;
+rename Emp_com to Emp_comp;
+desc Emp_comp;
+alter table Emp_comp add(emp_address varchar2 (50));
+desc Emp_comp;
+alter table Emp_comp modify(emp_name varchar2 (100));
+desc Emp_comp;
+alter table Emp_comp drop(emp_address); 
+desc Emp_comp;
+drop table Emp_comp;
+insert into Emp_comp values(1,'saif',100000000);
+select * from Emp_comp;
+insert into Emp_comp values(2,'Rushi',10);
+select * from Emp_comp;
+update Emp_comp set emp_name='karan' where emp_id=1;
+select * from Emp_comp;
+update Emp_comp set emp_id=3 where emp_name='Rushi';
+select * from Emp_comp;
+
+
+
+
+
+
+
+
+

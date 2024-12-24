@@ -1,0 +1,16 @@
+04)Write a PL/SQL Program to find Even or Odd Numbers in Given Range Using IF-ELSE Statement.
+
+
+
+DECLARE 
+N NUMBER;
+BEGIN
+For N IN 1..10 Loop
+If MOD(N,2)=0 THEN
+DBMS_OUTPUT.PUT_LINE(N || '  is Even');
+ELSE
+DBMS_OUTPUT.PUT_LINE(N || '  is Odd');
+End IF;
+End Loop;
+End;
+/

@@ -1,0 +1,19 @@
+06)Wrirte a PL/SQL Program to find Largest From Three Numbers.
+
+
+DECLARE 
+A NUMBER:=14;
+B NUMBER:=27;
+C NUMBER:=22;
+BEGIN
+if (A>B) and (A>C) Then 
+DBMS_OUTPUT.PUT_LINE('A is Larger ');
+ELSif  (B>A)and(B>C) THEN 
+DBMS_OUTPUT.PUT_LINE('B is Larger ');
+ElSE
+DBMS_OUTPUT.PUT_LINE('C is Larger ');
+End if;
+End;
+/
+
+

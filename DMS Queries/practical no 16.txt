@@ -1,0 +1,28 @@
+create table customer(cust_id number (5),Name varchar2 (20),D_no number (5));
+desc customer;
+create table Department(D_no number (5), D_name varchar2 (20),city varchar2 (30));
+desc Department;
+insert into customer values(101,'Rohit',1);
+insert into customer values(102,'Sachin',2);
+insert into customer values(103,'Rahul',3);
+insert into customer values(104,'virat',4);
+insert into customer values(107,'hardik',5);
+select * from customer;
+insert into Department values(1,'production','Mumbai');
+insert into Department values(2,'Marketing','Nashik');
+insert into Department values(3,'sells','Pune');
+insert into Department values(4,'Design','Aurangabad');
+insert into Department values(6,'Finance','Nagpur');
+insert into Department values(7,'IT','jalgaon');
+select *from Department;
+select * from customer inner join department on customer.d_no=department.d_no;
+select * from customer left outer join department on customer.d_no=department.d_no;
+select * from customer right join department on customer.d_no=department.d_no;
+select * from customer full join department on customer.d_no=department.d_no;
+select * from customer cross join department;
+
+
+
+
+
+

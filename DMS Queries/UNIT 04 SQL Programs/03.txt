@@ -1,0 +1,12 @@
+03)Write a Pl/Sql program to print number from 50 to 60 Using While Loop .
+
+
+DECLARE 
+I Number:=50;
+BEGIN 
+WHILE i<=60 LOOP 
+DBMS_OUTPUT.PUT_LINE(I);
+I:=I+1;
+END LOOP;
+END;
+/

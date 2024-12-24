@@ -1,0 +1,11 @@
+07)Write a PL/SQL Program to Find Square Of Number.
+
+
+DECLARE 
+A Number := 5;
+SQR Number :=20;
+BEGIN
+SQR:=A*A;
+DBMS_OUTPUT.PUT_LINE('Square of no is '|| SQR);
+END;
+/

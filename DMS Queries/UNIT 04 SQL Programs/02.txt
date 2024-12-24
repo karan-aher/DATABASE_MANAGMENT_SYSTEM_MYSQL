@@ -1,0 +1,11 @@
+2)Write a Pl/Sql program to print Number in Reverse Order From 1 to 10 Using For loop.
+
+
+DECLARE 
+I Number;
+BEGIN
+FOR I IN REVERSE 1..10 LOOP
+DBMS_OUTPUT.PUT_LINE(I);
+End LOOP;
+End;
+/
